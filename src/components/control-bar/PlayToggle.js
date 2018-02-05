@@ -30,6 +30,7 @@ export default class PlayToggle extends Component {
 
     return (
       <button
+        type="button"
         ref={
           (c) => {
             this.button = c;
